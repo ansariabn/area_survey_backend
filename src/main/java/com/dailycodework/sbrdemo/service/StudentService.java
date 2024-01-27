@@ -1,24 +1,24 @@
 package com.dailycodework.sbrdemo.service;
 
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 import com.dailycodework.sbrdemo.exception.StudentAlreadyExistsException;
 import com.dailycodework.sbrdemo.exception.StudentNotFoundException;
 import com.dailycodework.sbrdemo.model.Student;
 import com.dailycodework.sbrdemo.repository.StudentRepository;
+
 import lombok.RequiredArgsConstructor;
-import org.springframework.stereotype.Service;
-
-import java.util.List;
-
-/**
- * @author Simpson Alfred
- */
 
 @Service
-@RequiredArgsConstructor
 public class StudentService implements IStudentService{
-    private final StudentRepository studentRepository;
 
-    @Override
+    @Autowired
+    private StudentRepository studentRepository;
+
+	@Override
     public List<Student> getStudents() {
         return studentRepository.findAll();
     }

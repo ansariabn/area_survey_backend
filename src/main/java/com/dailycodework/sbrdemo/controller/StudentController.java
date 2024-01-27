@@ -2,23 +2,24 @@ package com.dailycodework.sbrdemo.controller;
 
 import com.dailycodework.sbrdemo.model.Student;
 import com.dailycodework.sbrdemo.service.IStudentService;
-import lombok.RequiredArgsConstructor;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-/**
- * @author Simpson Alfred
- */
 @CrossOrigin("http://localhost:3000") //allowing client application to consume the backed
 @RestController
 @RequestMapping("/students")
-@RequiredArgsConstructor
 public class StudentController {
     private final IStudentService studentService;
-    @GetMapping
+    public StudentController(IStudentService studentService) {
+		
+		this.studentService = studentService;
+	}
+    
+	@GetMapping
     public ResponseEntity<List<Student>> getStudents(){
         return new ResponseEntity<>(studentService.getStudents(), HttpStatus.FOUND);
     }

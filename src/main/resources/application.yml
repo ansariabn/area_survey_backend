@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    username: your_username
-    password: your_password
-    url: jdbc:mysql://localhost:3306/your_db
+    username: root
+    password: Aliza
+    url: jdbc:mysql://localhost:3307/React_Java
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     show-sql: true
