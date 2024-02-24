@@ -1,7 +1,7 @@
 # Area Survey 
 
 ## Screenshots
- |![Area people data](https://github.com/ansariabn/area_survey_backend/assets/110123115/fe259529-f0a2-4a8c-847e-46ed3523dbb8)
+ 
 
 ![Area Adding data](https://github.com/ansariabn/area_survey_backend/assets/110123115/90a4a4db-b36e-4a97-859d-9e2e68411dcc)|![Area datacollection](https://github.com/ansariabn/area_survey_backend/assets/110123115/b5a5ef16-1e75-4537-9161-2d27b76c17a7)
 
