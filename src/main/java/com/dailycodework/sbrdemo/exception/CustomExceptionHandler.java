@@ -23,16 +23,16 @@ public class CustomExceptionHandler {
     }
 
     @ResponseStatus(HttpStatus.NOT_FOUND)
-    @ExceptionHandler(StudentNotFoundException.class)
-    public Map<String, String> userNotFound(StudentNotFoundException ex){
+    @ExceptionHandler(PeopleNotFoundException.class)
+    public Map<String, String> userNotFound(PeopleNotFoundException ex){
         Map<String, String> error = new HashMap<>();
         error.put("error", ex.getMessage());
         return error;
     }
 
     @ResponseStatus(HttpStatus.BAD_REQUEST)
-    @ExceptionHandler(StudentAlreadyExistsException.class)
-    public Map<String, String> userNotFound(StudentAlreadyExistsException ex){
+    @ExceptionHandler(PeopleAlreadyExistsException.class)
+    public Map<String, String> userNotFound(PeopleAlreadyExistsException ex){
         Map<String, String> error = new HashMap<>();
         error.put("error", ex.getMessage());
         return error;
