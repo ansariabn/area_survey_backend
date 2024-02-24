@@ -3,11 +3,11 @@
 
 ## feature 
 
-### Adding People 
+### Adding Peoples 
 
 ### Update People for changing the details
 
-### Delete the unnecessary peoples details
+### Delete the unnecessary people's details
 
 ## Screenshots
  
