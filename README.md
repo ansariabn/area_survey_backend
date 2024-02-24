@@ -3,7 +3,7 @@
 
 
 [Area] is a Simple web project that is made for e-data collection Using Reacjs, Java 
-This initiative facilitates online data collection of people including Adding and Update data. This project can also help counting the how many peoples in the area  their patients. This  which will be submitted as a data to the individual person.
+This initiative facilitates online data collection of people including Adding and Update data. This project can also help counting the how many peoples live in area. This  which will be submitted as a data to the individual person.
 
 
 ## feature 
