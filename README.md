@@ -9,8 +9,6 @@
 
 # The Project was developed using the following:
 
-Apache Version: 	`2.4.39`
-
 java: 			`17`
 
 MySQL Version: 		`8.48`
