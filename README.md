@@ -1,6 +1,14 @@
 # Area Survey website made by Reactjs, Mysql, and Spring Boot 
 ### Frontend Link https://github.com/ansariabn/area_survey_client
 
+## feature 
+
+### Adding People 
+
+### Update People for changing the details
+
+### Delete the unnecessary peoples details
+
 ## Screenshots
  
 |  |  |  |
